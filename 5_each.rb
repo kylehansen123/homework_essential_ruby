@@ -2,8 +2,8 @@
 
 numbers = [3, 1, 5, 4]
 
-numbers.each do |the_number|
-  puts the_number * the_number
+numbers.each do |test|
+  puts test * test
 end
 
 
