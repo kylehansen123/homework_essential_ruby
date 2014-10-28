@@ -35,7 +35,10 @@ principal_amount = 200000.0
 # You shouldn't have to write code or change code anywhere else.
 
 loan_quotes.each do |quote|
+
   puts "The monthly payment from #{quote["bank"]} will be #{pmt("annual_rate", number_of_monthly_payments, principal_amount)}"
+
 end
 
+# I can't figure out how to treat the annual rate input as floats.
 # ==============================================================
